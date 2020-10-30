@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?resourcesPath .resources/design1?>
+<?audioPath .resources/design1?>
+<Design version="3.5.1" type="VOICE" locale="en-GB">
+	<Languages>
+		<Language>en-GB</Language>
+	</Languages>
+	<Variants />
+	<LanguagesFilter />
+	<VariantsFilter />
+	<States>
+		<State name="StartHere" type="AppInit" status="Draft">
+			<FunctionalSequences></FunctionalSequences>
+			<Notes></Notes>
+			<TechnicalNotes></TechnicalNotes>
+			<Parameters />
+			<Prompts />
+			<Grammars />
+			<Navigation>
+				<FromStates />
+				<Conditions>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>Start the app</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+				</Conditions>
+				<Tests />
+			</Navigation>
+		</State>
+	</States>
+	<DesignParameters />
+	<VersionNotes />
+</Design>
+
